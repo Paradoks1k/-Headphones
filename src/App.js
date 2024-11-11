@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React, { useState } from "react";
+import Header1 from "./components/header/header-html";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <Header1 />
     </div>
   );
 }
